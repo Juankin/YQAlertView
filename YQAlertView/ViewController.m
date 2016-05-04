@@ -26,7 +26,7 @@
 }
 
 - (IBAction)PopupAlertview:(id)sender {
-   YQAlertView *alertView = [[YQAlertView alloc] initWithTitle:@"退出登录" message:@"fafsafsafsa挥洒返回卡50元萨肌肤快速减肥款沙发哈萨克飞机库萨积分卡费啊放假阿警方撒发烧发烧就发烧fakfjkajfkasjfklshf" delegate:self buttonTitles:@"确定", @"取消", @"ok", @"cacel" ,nil];
+   YQAlertView *alertView = [[YQAlertView alloc] initWithTitle:@"退出登录" message:@"确定退出登录？" delegate:self buttonTitles:@"确定", @"取消",nil];
     [alertView Show];
 }
 
