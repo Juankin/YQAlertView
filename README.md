@@ -1,1 +1,1 @@
-![image](https://github.com/Naruto-yq/MasonryForCell/blob/master/MansoryForCell.gif)
+![image](https://github.com/Naruto-yq/YQAlertView/blob/master/popup.gif)
