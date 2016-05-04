@@ -15,6 +15,7 @@
 		0E3E521E1CD8D05500A3631D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3E521C1CD8D05500A3631D /* LaunchScreen.storyboard */; };
 		0E3E52291CD8D05600A3631D /* YQAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E52281CD8D05600A3631D /* YQAlertViewTests.m */; };
 		0E3E52341CD8D05600A3631D /* YQAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E52331CD8D05600A3631D /* YQAlertViewUITests.m */; };
+		0E3E52431CD8D15C00A3631D /* YQAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E52421CD8D15C00A3631D /* YQAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0E3E522F1CD8D05600A3631D /* YQAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3E52331CD8D05600A3631D /* YQAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQAlertViewUITests.m; sourceTree = "<group>"; };
 		0E3E52351CD8D05600A3631D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E3E52411CD8D15C00A3631D /* YQAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAlertView.h; sourceTree = "<group>"; };
+		0E3E52421CD8D15C00A3631D /* YQAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				0E3E521C1CD8D05500A3631D /* LaunchScreen.storyboard */,
 				0E3E521F1CD8D05500A3631D /* Info.plist */,
 				0E3E520E1CD8D05500A3631D /* Supporting Files */,
+				0E3E52411CD8D15C00A3631D /* YQAlertView.h */,
+				0E3E52421CD8D15C00A3631D /* YQAlertView.m */,
 			);
 			path = YQAlertView;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E3E52161CD8D05500A3631D /* ViewController.m in Sources */,
+				0E3E52431CD8D15C00A3631D /* YQAlertView.m in Sources */,
 				0E3E52131CD8D05500A3631D /* AppDelegate.m in Sources */,
 				0E3E52101CD8D05500A3631D /* main.m in Sources */,
 			);
