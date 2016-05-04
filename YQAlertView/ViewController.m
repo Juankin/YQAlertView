@@ -24,6 +24,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)PopupMutilabelColorText:(id)sender {
+    NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithString:@"这个数字是999"];
+    [attrStr addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:NSMakeRange(5, 3)];
+    YQAlertView *alertView = [[YQAlertView alloc] initWithTitle:@"多颜色" attributeMessage:attrStr delegate:self buttonTitles:@"确定", @"取消",nil];
+    [alertView Show];
+}
 
 - (IBAction)PopupAlertview:(id)sender {
    YQAlertView *alertView = [[YQAlertView alloc] initWithTitle:@"退出登录" message:@"确定退出登录？" delegate:self buttonTitles:@"确定", @"取消",nil];

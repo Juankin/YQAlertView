@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -19,25 +19,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2PG-nS-vAM">
-                                <rect key="frame" x="113" y="269" width="94" height="30"/>
+                                <rect key="frame" x="95" y="269" width="130" height="30"/>
                                 <color key="backgroundColor" red="0.22745098039215686" green="0.9904355219436769" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="94" id="FXh-D4-T0l"/>
+                                    <constraint firstAttribute="width" constant="130" id="FXh-D4-T0l"/>
                                     <constraint firstAttribute="height" constant="30" id="Oka-lF-M6n"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="弹出"/>
+                                <state key="normal" title="弹出普通对话框"/>
                                 <connections>
                                     <action selector="PopupAlertview:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dnw-lT-HrB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AyQ-Gz-6Xk">
-                                <rect key="frame" x="113" y="127" width="94" height="30"/>
+                                <rect key="frame" x="45.5" y="127" width="230" height="30"/>
                                 <color key="backgroundColor" red="0.2274509804" green="0.99043552189999995" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="弹出系统"/>
+                                <state key="normal" title="弹出多颜色message对话框"/>
                                 <connections>
-                                    <action selector="popupSystem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SIP-lM-Wlf"/>
+                                    <action selector="PopupMutilabelColorText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Guf-4a-2No"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -45,7 +45,7 @@
                         <constraints>
                             <constraint firstItem="AyQ-Gz-6Xk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C0m-R5-U61"/>
                             <constraint firstItem="2PG-nS-vAM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GO0-Sw-jSH"/>
-                            <constraint firstItem="AyQ-Gz-6Xk" firstAttribute="width" secondItem="2PG-nS-vAM" secondAttribute="width" id="SCx-U0-XOu"/>
+                            <constraint firstItem="AyQ-Gz-6Xk" firstAttribute="width" secondItem="2PG-nS-vAM" secondAttribute="width" constant="100" id="SCx-U0-XOu"/>
                             <constraint firstItem="AyQ-Gz-6Xk" firstAttribute="height" secondItem="2PG-nS-vAM" secondAttribute="height" id="ZPh-K6-N7N"/>
                             <constraint firstItem="AyQ-Gz-6Xk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="oJt-bA-jTh"/>
                             <constraint firstItem="2PG-nS-vAM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="par-Da-Ug9"/>
@@ -55,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="253" y="333"/>
+            <point key="canvasLocation" x="329" y="223"/>
         </scene>
     </scenes>
 </document>
